@@ -1,9 +1,3 @@
-# Transcricao_whisper
-
-Beleza, meu dog! Mandou a braba! Se o Bark tá dando perrengue demais, a gente foca no que tá rodando liso: Whisper + Ollama! É um pipeline brabo por si só!
-
-Aqui está o README.md pra sua aplicação, formal, estudantil, com uns emojis e destaques pra deixar a parada top, focando no que realmente tá funfando:
-
 🚀 Projeto de Análise de Mídia com IA: Transcrição e Sumarização Inteligente
 Este projeto implementa um pipeline de processamento de mídia utilizando Inteligência Artificial para converter conteúdo de áudio/vídeo em texto e, posteriormente, extrair e sumarizar os pontos mais importantes. É uma ferramenta eficaz para análise rápida de conteúdo falado.
 
@@ -78,3 +72,7 @@ O modelo Whisper "small" (configurado no código para otimização) ocupa aproxi
 O modelo Ollama llama3.2:latest (para sumarização) ocupa cerca de 2.0 GB.
 Certifique-se de que seu Disco Local C: (ou o disco onde o cache dos modelos está configurado via variáveis de ambiente como XDG_CACHE_HOME) possui espaço livre suficiente para o download e a descompressão desses modelos. A falta de espaço pode causar erros de "No space left on device", impedindo a execução do projeto. 💾
 
+✨ Melhorias e Próximos Passos
+Otimização de Performance: Considere utilizar o modelo Whisper "base" ("base") para testes ainda mais rápidos, pois é o menor modelo disponível.
+Interface Gráfica: Explore frameworks como Streamlit ou Gradio para criar uma interface de usuário interativa e amigável. 🖥️
+Desenvolvimento Interativo: Para uma experiência de desenvolvimento mais fluida e a possibilidade de executar o código em blocos e visualizar os resultados passo a passo, considere usar um Jupyter Notebook (.ipynb).
